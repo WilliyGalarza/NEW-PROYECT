@@ -1,0 +1,11 @@
+.contenedor {
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contenedor2 {
+    background-color: brown;
+    padding: 10%;
+}

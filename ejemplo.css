@@ -1,0 +1,50 @@
+.titulo {
+    height: 160px;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: start;
+    line-height: 5;
+    text-align: center;
+}
+
+.amarillo {
+    width: 23%;
+    background-color: yellow;
+    height: 100px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.verde {
+    width: 23%;
+    background-color: greenyellow;
+    height: 100px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.rojo {
+    width: 23%;
+    background-color: red;
+    height: 100px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.celeste {
+    width: 23%;
+    background-color: skyblue;
+    height: 100px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}

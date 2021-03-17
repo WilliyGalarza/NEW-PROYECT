@@ -1,0 +1,49 @@
+    body {
+        height: 100%;
+        display: flex;
+    }
+    
+    .contenedor1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        line-height: 8;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+    
+    p {
+        width: 200px;
+        background-color: gray;
+        height: 120px;
+        margin-bottom: 2%;
+        margin-right: 2%;
+    }
+    
+    .izquierda {
+        display: flex;
+        margin-left: 10%;
+        justify-content: center;
+    }
+    
+    .izquierda>p {
+        background-color: gray;
+        width: 200px;
+        height: 500px;
+    }
+    
+    .abajo {
+        width: 100%;
+        background-color: gray;
+        height: 20px;
+    }
+    
+    .abajo2 {
+        width: 100%;
+        background-color: gray;
+        margin-top: 2%;
+        height: 20px;
+    }

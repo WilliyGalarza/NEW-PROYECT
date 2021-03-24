@@ -1,3 +1,7 @@
+function suma(a, b) {
+    document.write(a + b)
+}
+resta(5, 3);
 suma(3, 5);
 
 function resta(a, b) {

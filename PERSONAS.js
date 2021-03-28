@@ -1,12 +1,5 @@
 var arrayPersona = []
-var nacionalidad = [arrayPersona.length]
 
-for (let index = 0; index < 10; index++) {
-    arrayPersona.push(crearPersonas());
-}
-
-
-console.log(arrayNacionalidad)
 arrayPersona[0] = crearPersonas("Juan", 19283192321, "Ecuatoriano", 28, "Ecuador", "Cuenca")
 arrayPersona[1] = crearPersonas("Mario", 1928434434, "Ecuatoriano", 20, "Ecuador", "Quito")
 arrayPersona[2] = crearPersonas("Camila", 32232292355, "Ecuatoriano", 55, "Ecuador", "Guayaquil")
@@ -19,7 +12,7 @@ arrayPersona[8] = crearPersonas("Camilo", 22283192118, "Argentino", 21, "Argenti
 arrayPersona[9] = crearPersonas("Jorge", 19283192321, "Argentino", 28, "Argentina", "Buenos Aires")
 
 function crearPersonas(nombre, cedula, nacionalidad, edad, pais, ciudad) {
-    return {
+    const persona = {
         nombre: nombre,
         cedula: cedula,
         nacionalidad: nacionalidad,
@@ -27,48 +20,47 @@ function crearPersonas(nombre, cedula, nacionalidad, edad, pais, ciudad) {
         pais: pais,
         ciudad: ciudad
     }
+    return persona
 }
 
-console.log(arrayPersona);
-
-const arrayNacionalidad = crearPersonas.map(function(numeroNacionalidad) {
-    return numeroNacionalidad.nacionalidad;
-
-})
-console.log(arrayNacionalidad);
 
 
+let cantEcuatorianos = 0;
+let cantArgentinos = 0;
+/*for (let index = 0; index < arrayPersona.length; index++) {
+    if (arrayPersona[index].nacionalidad == "Argentino") {
+        cantArgentinos= cantArgentinos+1;
+        
+    }
 
-
-
-
-
-
-
-
-for (let i = < arrayPersona; i++) {
-    const element = arr];
-
+    if (arrayPersona[index].nacionalidad == "Ecuatoriano") {
+        cantEcuatorianos= cantEcuatorianos+1;
+        
+    }
 }
-
-}
-for (let index = 0; index < arrayPersona.length; index++) {
-    crearPersonas = arrayPersona[index.nacionalidad];
-
-}
+    console.log("La Cantidad de Argentinos es: " +cantArgentinos)
+    console.log("La Cantidad de Ecuatorianos es: " +cantEcuatorianos) */
 
 for (const x of arrayPersona) {
     console.log(x.nacionalidad)
+    if (x.nacionalidad == "Ecuatoriano") {
+        cantEcuatorianos = cantEcuatorianos + 1;
+    }
 }
+console.log("La Cantidad de Ecuatorianos es: " + cantEcuatorianos)
 
 
+declarar un array
+insertar 20 objetos dentro del array
+tener una funcion constructora de obejetos
+los objetos deben ser autos
+propiedades min 10 pero almenos debe ser marca y color
+cuantos vehiculos toyota existen dentro de array === === === = listo
+cuantos vehiculos mazda hay dentro del array === === listo
+cuantos vehiculos toyota y de color rojo hay-- -- - listo
 
+minimo 10 vehiculos toyota y almenos 6 deben ser color rojo
 
-let nacionalidades = crearPersonas.find(x => x === "nacionalidad");
-console.log(nacionalidades);
+si un auto es toyota y de color rojo es verdadero ?
 
-
-
-/*    
-function nacioArg = crearPersonas.map(crearPersonas => nacionalidad);
-console.log(nacionalidad)
+    and y or operadores logicos

@@ -473,7 +473,9 @@ let RickAndMorty = {
 let nombres = [];
 
 
-for (let i = 0; i < RickAndMorty.results; i++) {
-    nombres.push(RickAndMorty.results[i].name);
-    console.log("Contenedor De Nombres", nombres)
+for (let i = 0; i < RickAndMorty.results.length; i++) {
+    //*nombres.push(RickAndMorty.results[i].name);
+    nombres.push(RickAndMorty.results[i].episode[0])
 }
+
+console.log("Contenedor De Nombres", nombres)

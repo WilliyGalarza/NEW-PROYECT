@@ -10,6 +10,18 @@ function crearAutos(marca, color, numPuertas, motor, tipoDeCaja, neumaticos, paq
         tipoDeVehiculo: tipoDeVehiculo,
         tipoDeDireccion: tipoDeDireccion,
         tipoDeEnfriamiento: tipoDeEnfriamiento,
+        imagenes: [interiorDeVehiculo = {
+                Tipoasientos: "Cuero",
+                tipoDeVolante: "Normal"
+            }
+
+        ],
+        modelo: {
+            nombre: "Yaris",
+            anio: "2014",
+        }
+
+
     }
     return vehiculo
 }
@@ -44,7 +56,7 @@ for (let index = 0; index < arrayAutos.length; index++) {
 
     }
 }
-console.log("La cantidad de vehiculos toyota y rojo es: " + cantToyota);
+console.log("La cantidad de vehiculos toyota: " + cantToyota);
 
 
 let cantAutosMazda = 0
@@ -68,11 +80,61 @@ console.log("La cantidad de vehiculos Toyota y rojo es igual a : " + cantToyotaR
 
 
 
-let cantToyotaRojo = 0
-for (let index = 0; index < arrayAutos.length; index++) {
-    if (arrayAutos[index].marca == "Toyota" && arrayAutos[index].color == "rojo") {
-        cantToyotaRojo = cantToyotaRojo + 1;
+
+
+
+var array = [
+    ['blanco', 'rojo'],
+    ['verde', 'azul', 'cafe', 'negro'],
+    ["rosa", 'morado', 'celeste'],
+    Instrumentos = {
+        tipoDeInstrumento: 'acustico',
+        tipoDeCuerdas: 'metalicas',
 
     }
+]
+array.push({
+    numCuerdas: 6,
+    instrumentosSonoros: 'verdadero',
+
+})
+
+array[1].push('celeste', 'blanco')
+arrayObjeto = []
+for (let i = 0; i < array.length; i++) {
+    if (Object.prototype.toString.call(array[i]) === '[object Array]') {
+        arrayObjeto.push(array[i])
+    }
+
 }
-console.log("La cantidad de vehiculos Toyota y rojo es igual a : " + cantToyotaRojo)
+console.log("Nuevo Array", arrayObjeto)
+
+
+se recorre el array para saber o analizar los tipos de elementos dentro del array, sacar todos los objetos que existan en el array
+y meterlo dentro de el nuevo array
+
+
+
+
+
+
+
+
+
+
+
+
+resto
+recorrer el array pero sin las posiciones
+
+agregar nuevos elementos al array de la posicion 1
+    (push)
+
+volver a presentar console.log
+
+arrays que reciban obejtos
+
+
+
+
+almacenar dentro de un array todos los name con el api que me va a pasar

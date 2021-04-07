@@ -1,0 +1,26 @@
+body {
+    background: black 50%;
+}
+
+.personaje1 {
+    display: flex;
+    padding: 5%;
+    border: solid 2px rgb(9, 255, 0);
+    margin: 2%;
+}
+
+.imagen1 {
+    border: solid 4px;
+}
+
+.lista1 {
+    color: honeydew;
+    padding-left: 5%;
+    list-style: none;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 5%;
+}

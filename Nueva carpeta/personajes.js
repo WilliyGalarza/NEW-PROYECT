@@ -468,3 +468,69 @@ var rickandmortyapi = {
         }
     ]
 }
+
+
+//Nombres De Personajes
+
+var a = document.getElementById("nombre1").innerHTML = rickandmortyapi.results[0].name;
+document.getElementById("nombre2").innerHTML = rickandmortyapi.results[1].name;
+document.getElementById("nombre3").innerHTML = rickandmortyapi.results[2].name;
+document.getElementById("nombre4").innerHTML = rickandmortyapi.results[3].name;
+document.getElementById("nombre5").innerHTML = rickandmortyapi.results[4].name;
+document.getElementById("nombre6").innerHTML = rickandmortyapi.results[5].name;
+document.getElementById("nombre7").innerHTML = rickandmortyapi.results[6].name;
+document.getElementById("nombre8").innerHTML = rickandmortyapi.results[7].name;
+document.getElementById("nombre9").innerHTML = rickandmortyapi.results[8].name;
+document.getElementById("nombre10").innerHTML = rickandmortyapi.results[9].name;
+
+//Especie De Personajes
+
+document.getElementById("especie1").innerHTML = rickandmortyapi.results[0].species;
+document.getElementById("especie2").innerHTML = rickandmortyapi.results[1].species;
+document.getElementById("especie3").innerHTML = rickandmortyapi.results[2].species;
+document.getElementById("especie4").innerHTML = rickandmortyapi.results[3].species;
+document.getElementById("especie5").innerHTML = rickandmortyapi.results[4].species;
+document.getElementById("especie6").innerHTML = rickandmortyapi.results[5].species;
+document.getElementById("especie7").innerHTML = rickandmortyapi.results[6].species;
+document.getElementById("especie8").innerHTML = rickandmortyapi.results[7].species;
+document.getElementById("especie9").innerHTML = rickandmortyapi.results[8].species;
+document.getElementById("especie10").innerHTML = rickandmortyapi.results[9].species;
+
+//Location de Personajes
+
+document.getElementById("location1").innerHTML = rickandmortyapi.results[0].location.name;
+document.getElementById("location2").innerHTML = rickandmortyapi.results[1].location.name;
+document.getElementById("location3").innerHTML = rickandmortyapi.results[2].location.name;
+document.getElementById("location4").innerHTML = rickandmortyapi.results[3].location.name;
+document.getElementById("location5").innerHTML = rickandmortyapi.results[4].location.name;
+document.getElementById("location6").innerHTML = rickandmortyapi.results[5].location.name;
+document.getElementById("location7").innerHTML = rickandmortyapi.results[6].location.name;
+document.getElementById("location8").innerHTML = rickandmortyapi.results[7].location.name;
+document.getElementById("location9").innerHTML = rickandmortyapi.results[8].location.name;
+document.getElementById("location10").innerHTML = rickandmortyapi.results[9].location.name;
+
+// Episodio
+
+document.getElementById("episodio1").innerHTML = rickandmortyapi.results[0].episode[0];
+document.getElementById("episodio2").innerHTML = rickandmortyapi.results[1].episode[0];
+document.getElementById("episodio3").innerHTML = rickandmortyapi.results[2].episode[0];
+document.getElementById("episodio4").innerHTML = rickandmortyapi.results[3].episode[0];
+document.getElementById("episodio5").innerHTML = rickandmortyapi.results[4].episode[0];
+document.getElementById("episodio6").innerHTML = rickandmortyapi.results[5].episode[0];
+document.getElementById("episodio7").innerHTML = rickandmortyapi.results[6].episode[0];
+document.getElementById("episodio8").innerHTML = rickandmortyapi.results[7].episode[0];
+document.getElementById("episodio9").innerHTML = rickandmortyapi.results[8].episode[0];
+document.getElementById("episodio10").innerHTML = rickandmortyapi.results[9].episode[0];
+
+// Imagenes de Personajes
+
+document.getElementById("imagen1").innerHTML = '<img src="' + rickandmortyapi.results[0].image + '" />';
+document.getElementById("imagen2").innerHTML = '<img src="' + rickandmortyapi.results[1].image + '" />';
+document.getElementById("imagen3").innerHTML = '<img src="' + rickandmortyapi.results[2].image + '" />';
+document.getElementById("imagen4").innerHTML = '<img src="' + rickandmortyapi.results[3].image + '" />';
+document.getElementById("imagen5").innerHTML = '<img src="' + rickandmortyapi.results[4].image + '" />';
+document.getElementById("imagen6").innerHTML = '<img src="' + rickandmortyapi.results[5].image + '" />';
+document.getElementById("imagen7").innerHTML = '<img src="' + rickandmortyapi.results[6].image + '" />';
+document.getElementById("imagen8").innerHTML = '<img src="' + rickandmortyapi.results[7].image + '" />';
+document.getElementById("imagen9").innerHTML = '<img src="' + rickandmortyapi.results[8].image + '" />';
+document.getElementById("imagen10").innerHTML = '<img src="' + rickandmortyapi.results[9].image + '" />';
